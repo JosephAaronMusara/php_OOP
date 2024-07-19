@@ -13,6 +13,10 @@ $transaction2 = (new Transactions(100,'Payment For Mr B1k'))
                 -> addTax(8)
                 -> applyDiscount(10)
                 ->getDescription();
+
+// unset($transaction1, $transaction2); -- this also desctucts just like the majic method destruct
+// Use mainly when you have resources in use e.g db connection
+
 echo'<pre>';
 var_dump($transaction1, $transaction2);
 echo'<pre />';

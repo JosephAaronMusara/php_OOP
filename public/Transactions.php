@@ -32,4 +32,9 @@ class Transactions
     {
         return $this->description;
     }
+
+    public function __destruct()
+    {
+        echo $this->description;
+    }
 }
