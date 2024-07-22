@@ -11,5 +11,7 @@ class Transactions
         private float $amount, 
         private string $description
         ){
+
+            
     }
 }
