@@ -21,3 +21,4 @@ class Transactions
             echo $amount;
     }
 }
+
